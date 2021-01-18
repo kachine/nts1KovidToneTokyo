@@ -25,10 +25,12 @@ For example:
 |N+4|69|
 |N+5|57|
 |N+6|31|
+
 In this example, the sum of 7 days cases is 468 (=100+87+53+71+69+57+31).
 To generate A=440Hz tone, additive synthesis engine use this statistics as level of each overtones like below:
+
 |frequency[Hz]|level ratio|
-|---:|---|
+|---|---|
 |440*1=440|100/468|
 |440*2=880|87/468|
 |440*3=1320|53/468|
