@@ -1,0 +1,18 @@
+{
+    "header" :
+    {
+        "platform" : "nutekt-digital",
+        "module" : "osc",
+        "api" : "1.1-0",
+        "dev_id" : 0,
+        "prg_id" : 0,
+        "version" : "1.0-0",
+        "name" : "KovidToneTky",
+        "num_param" : 3,
+        "params" : [
+            ["Month",  0, 11, ""],
+            ["Day",    0, 30, ""],
+            ["Period", 0, 99, ""]
+          ]
+    }
+}
