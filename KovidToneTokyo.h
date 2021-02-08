@@ -27,7 +27,7 @@ static const uint8_t daysOfMonth[] = {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30
 // Voice status structure
 struct _voice {
   uint8_t note;                   // MIDI note number
-  float frequency[NUM_OVERTONES]; // Note frequency [Hz]
+  uint8_t mod;                    // Pitch modifier (0-255)
   float phase[NUM_OVERTONES];     // Phase ratio of each overtone 
   float level[NUM_OVERTONES];     // Level of each harmonics
   uint32_t currSamplePos;         // Current sample position (from NOTE ON) MAX:4.84*10^9 days
